@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
     "start": "webpack-dev-server"
   },
   "keywords": [
@@ -21,5 +22,9 @@
     "webpack-cli": "^5.1.4",
     "webpack-dev": "^1.1.1",
     "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "ol": "^8.2.0",
+    "openlayers": "^4.6.5"
   }
 }
